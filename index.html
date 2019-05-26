@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>全硕果的个人简历</title>
+    <meta name="theme-color" content="#ffc91d"/>
+    <link rel="icon" href="static/img/32.png" sizes="32x32"/>
+    <link rel="icon" href="static/img/192.png" sizes="192x192"/>
+    <link href="static/kico.css" rel="stylesheet" type="text/css"/>
+    <link href="static/moreduo.css" rel="stylesheet" type="text/css"/>
+    <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+    <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1"/>
+</head>
+<body>
+<aside class="sidebar">
+    <div class="avatar">
+        <img src="static/img/11.gif" title="保罗酱"/>
+    </div>
+    <nav class="nav">
+        <a href="#info">资料</a>
+        <a href="#skills">技能</a>
+        <a href="#story">经历</a>
+        <a href="#works">项目</a>
+        
+        
+    </nav>
+</aside>
+<main>
+    <section id="info">
+        <div class="wrap">
+            <h2 class="title">个人资料</h2>
+            <div class="row">
+                <div class="col-l-6">
+                    <p>姓名：全硕果</p>
+                    <p>性别：男</p>
+                    <p>英文名：Xcsg</p>
+                    <p>学历：统招本科</p>
+                </div>
+                <div class="col-l-6">
+                    <p>QQ：396961930</p>
+                    <p>博客：<a href="https://www.cnblogs.com/xcsg/">https://www.cnblogs.com/xcsg/</a></p>
+                    <p>邮箱：<a href="mailto:396961930@qq.com">396961930@qq.com</a></p>
+
+                </div>
+                <div>&nbsp;</div>
+                <div class="col-l-12">
+                    <p>自我介绍：本人四年 Python 全栈开发经验，掌握 Django 框架，担任主力工程师参与设计与开发过多个项目，负责系统核心模块的开发，测试与自动化部署，有高并发 WEB 应用架构经验。掌握爬虫技术，熟练使用Scrapy，熟悉前端业务规范，掌握vue.js开发，熟悉响应式开发框架Bootstrap,熟悉 HTTP 协议、掌握websocket，掌握 MySQL,redis 数据库与 Linux 系统的常见机制与原理。有优秀的学习能力和团队沟通能力，经常与团队进行技术分享，能与团队共同成长。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="skills">
+        <div class="wrap">
+            <h2 class="title">掌握的技能</h2>
+            <div class="row">
+                <div class="col-s-6 col-m-6">
+                    <ul>
+                        <li>后端：Python，Django，mysql,mongo,linux,mac os</li>
+                        <li>前端：node, Vue.js,Bootstrap</li>
+                        <li>机器学习：numpy pandas matplotlib </li>
+                        <li>深度学习：tensorflow pytorch</li>
+                        <li>其他：HTTP TCP/IP Websocket</li>
+                        <li>外语：大学英语四级，能流畅阅读英文文档</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="story">
+        <div class="wrap">
+            <h2 class="title">个人经历</h2>
+            <div class="row">
+                <div class="col-m-8">
+                    <ul class="timeline">
+                        <li>2017.5.16 - 2019.5.20：北京旭辉时代软件科技有限公司  <br/>职    位： 全栈开发工程师</li>
+                        <li>2015.8.16 - 2017.5.10：北京信联云通科技有限公司  <br/>职    位： WEB开发工程师</li>
+                        
+                    </ul>
+                </div>
+                <div class="col-m-4 center-fixed">
+                    <img src="static/img/story.png"/>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="works">
+        <div class="wrap">
+            <h2 class="title">项目经验</h2>
+            <div class="row">
+                <div class="col-s-12">
+                    <div class="works-item">
+                        <ul>
+                            <h2>参与北京旭辉时代科技实时视频监控系统开发</h2>
+                            <li>  搭建基于Docker挂载Nginx-rtmp的直播服务器</li>
+                            <li>  使用FFmpeg利用DVR设备进行推流，对视频进行视频埋点，视频信息分析等操作</li>
+                            <li>   开发，测试回放，实时在线监控，历史回放等模块</li>
+                            <li>  在网页端使用VUE.JS作为载体利用video.js作为直播流播放器，优化延时达500ms左右</li>
+                            <li>  利用Nginx反向代理后台uwsgi+Django的回放接口，并且针对性使用Nginx负载均衡策略</li>
+                            <li>  使用Bootstrap作为播放页响应式设计解决方案，一套代码自适应大小屏应用，降低了45%左右的移动开发成本</li> 
+                        </ul>
+                    </div>
+                </div>
+                <p>&nbsp;</p>
+                <div class="col-s-12">
+                    <div class="works-item">
+                        <ul>
+                            <h2>主导视频监控系统后台管理系统研发</h2>
+                            <li>基于Django的后台管理平台，采用RBAC权限管理机制</li>
+                            <li>使用Supervisor对后台服务 例如uwsgi和Gunicorn进行监控和操作，降低维护成本</li>
+                            <li>采用FastDfs分布式文件系统作为海量视频储存方案，利用视频指纹规避重复文件问题，节约了大约25%的硬盘空间</li>
+                        </ul>
+                    </div>
+                </div>
+                <p>&nbsp;</p>
+                <div class="col-s-12">
+                    <div class="works-item">
+                        <ul>
+                            <h2>分布式数据抓取爬虫系统</h2>
+                            <li>设计和开发基于Scrapy的分布式数据抓取系统，优化爬虫策略和防屏蔽规则，利用Redis维护IP代理池，提高数据的抓取效率和质量</li>
+                            <li>利用Jenkins自动化部署服务，提高系统可用性</li>
+                            <li>使用Docker对项目进行重新拆分和架构，减少项目之间资源耦合度，实现高内聚低耦合。</li>
+                            <li>利用Selenium针对爬虫进行反复测试和改进抓取方案</li>
+                        </ul>
+                    </div>
+                </div>
+                <p>&nbsp;</p>
+                <div class="col-s-12">
+                    <div class="works-item">
+                        <ul>
+                            <h2>参与北京信联运通科技跨境移动聚合支付平台研发</h2>
+                            <li>基于Django实现Restful风格的在线聚合支付接口，聚合封装了支付宝，微信，京东等三方支付平台。</li>
+                            <li>使用Mysql存储数据，配置主从热备，使用Celery实现异步邮箱和短信推送。</li>
+                            <li>利用Websocket实现后端主动推送，改造前端传统轮询框架，减少了30%的网络请求数，节约了大量的可用带宽。</li>
+                            <li>采用Nginx	数据同步机制，实现某台机器宕机快速无缝切换，用户体验明显提升</li>
+                            <li>使用Redis作为缓存介质，利用其分布式锁和队列的特性开发并测试抢单秒杀功能，测试登录，注册，订单，支付，退款等模块</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- <section class="content-d" id="team">
+        <div class="wrap">
+            <h2 class="title">我的团队</h2>
+            <div class="row">
+                <div class="col-m-12">
+                    <p>我的团队 - 缤奇团队由一群热爱科技创新的年轻人所组成，做到了“实际”与“创新”的结合。奇思妙想不乏真正落实。集思广益，生动有趣的创意，尽在缤奇。缤奇团队如今有超过30名成员，各个部门互帮互助，同为一个目标而努力进取着。</p>
+                    <p>缤奇团队致力于开发原创游戏、动漫等项目。目前我们已完成项目有手机游戏“色块冲刺”、聊天娱乐项目“小缤机器人”等。正在创作项目有解密游戏“月亮湖的秘密”、VR 项目“梦想码头”等。缤奇官网 &amp; 社区已陆续开放。网站采用团队成员自主编写的 CSS3 自适应框架，针对移动设备有布局优化，缤奇团队有着丰富的网站建设技术能力、有独立的画师以及文编。</p>
+                    <p>团队官网：<a href="http://www.wangdahai.cn">http://www.wangdahai.cn</a></p>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <footer>
+        <p>© 2019 By <a href="http://www.wangdahai.cn" title="站长资源" target="_blank">Moreduo</a>.</p>
+    </footer>
+</main>
+
+<script src="static/kico.js"></script>
+<script src="static/moreduo.js"></script>
+
+</body>
+</html>
