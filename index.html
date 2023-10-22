@@ -14,13 +14,12 @@
 <body>
 <aside class="sidebar">
     <!-- <div class="avatar"> -->
-        <img src="static/img/timg.gif" title="个人简历"/>
+        <img src="static/img/111.gif" title="个人简历"/>
     <!-- </div> -->
     <nav class="nav">
         <a href="#info">资料</a>
         <a href="#skills">技能</a>
-        <a href="#story">经历</a>
-        <a href="#works">项目</a>
+        <a href="#works">工作经历</a>
         
         
     </nav>
@@ -33,17 +32,17 @@
                 <div class="col-l-6">
                     <p>姓名：全硕果</p>
                     <p>性别：男</p>
-                    <p>学历：统招本科</p>
+                    <p>学历：大专</p>
                 </div>
                 <div class="col-l-6">
                     <p>TEL：16637712137</p>
-                    <p>博客：<a href="http://www.u9q.cn/">http://www.u9q.cn/</a></p>
+                    <p>博客：<a href="https://www.cnblogs.com/xcsg">https://www.cnblogs.com/xcsg</a></p>
                     <p>邮箱：xcsg2012@gmail.com</p>
 
                 </div>
                 <div>&nbsp;</div>
                 <div class="col-l-12">
-                    <p>自我介绍：本人四年 Python 全栈开发经验，掌握Python多种框架技术，设计并开发过多个项目，负责系统核心模块的开发，测试与自动化部署。有高并发 WEB 应用架构经验。掌握爬虫技术，熟练使用Scrapy，掌握vue.js开发，熟悉响应式开发框架Bootstrap,熟悉 HTTP 协议、掌握websocket，掌握 MySQL,redis 数据库，具有较强的计算机应用及编程能力。有优秀的学习能力和团队沟通能力，经常与团队进行技术分享，能与团队共同成长。</p>
+                    <p>自我介绍：本人态度诚恳，有上进心及团队意识，坚持做好本职工作，有优秀的学习和团队沟通能力，经常与团队进行技术分享，能与团队共同成长。如有幸成为贵公司成员，愿与贵公司创造更多价值。</p>
                 </div>
             </div>
         </div>
@@ -54,74 +53,28 @@
             <div class="row">
                 <div class="col-s-6 col-m-6">
                     <ul>
-                        <li>后端：Python、Go、Django、mysql、mongo、linux、mac os</li>
+                        <li>电脑硬件：了解各种硬件工作原理及日常故障处理、系统镜像的制作</li>
                         <li>前端：Vue、Node.js、Bootstrap、Echarts</li>
-                        <li>数据库：MySQL、MongoDB、Redis、MemCache</li>
-                        <li>算法：Numpy、Pandas、Matplotlib、协同过滤、EloScore、Dice系数</li>
-                        <li>其他：TCP/IP、HTTP、Websocket、Docker、Git、FastDFS、Celery、Ffmpeg、Siege</li>
-                        <li>外语：CET4，能流畅阅读英文文档</li>
+                        <li>后端：Python、Go、Django、mysql、mongo、linux、mac os</li>
+                        <li>数据库：MySQL、MongoDB、Redis</li>
                     </ul>
                 </div>
             </div>
         </div>
     </section>
-    <section id="story">
-        <div class="wrap">
-            <h2 class="title">个人经历</h2>
-            <div class="row">
-                <div class="col-m-8">
-                    <ul class="timeline">
-                        <li>2017.3.6  -   至今	 ：北京北斗运通网络科技有限公司  <br/>职    位： Python开发工程师</li>
-                        <li>2015.8.16 - 2017.1.12：北京蛙视软件技术有限公司  <br/>职    位： WEB开发工程师</li>
-                        
-                    </ul>
-                </div>
-                <div class="col-m-4 center-fixed">
-                    <!-- <img src="static/img/timg.gif"/> -->
-                </div>
-            </div>
-        </div>
-    </section>
+    
     <section id="works">
         <div class="wrap">
-            <h2 class="title">项目经验</h2>
+            <h2 class="title">工作经历</h2>
             <div class="row">
                 <div class="col-s-12">
                     <div class="works-item">
                         <ul>
-                            <h3>主导德美斯物流平台研发</h3>
-                            <li>
-                                <ul>
-                                    <h4>项目描述：</h4>
-                                    <li>为实现智慧物流园区，通过APP加Web来进行使用及管理，解决货，停，运，行，管，服务等问题。使管理成本降低，实现可扩展，可复制性。打造着力于生产型服务的现代物流园区平台</li>
-                                </ul>
-                            </li>
-                            <li>
-                                <ul>
-                                    <h4>项目职责：</h4>
-                                    <li>主要负责智能停车收费、车找货货找车、停车优惠券、个人信息、政策活动</li>
-                                </ul> 
-                            </li>
-                            <li>
-                                <ul>
-                                    <h4>技术要点：</h4>
-                                    <li>  基于Django实现在线聚合支付接口，聚合封装了支付宝，微信，银联等三方支付平台</li>
-                                    <li>  使用Mysql存储数据，配置主从热备，使用Celery实现异步邮箱和短信推送</li>
-                                    <li>  利用Websocket实现后端消息主动推送，改造前端传统轮询技术框架，减少了30%的网络请求数，节约了大约一半的可用带宽</li>
-                                    <li>  使用Redis作为缓存介质，利用其分布式锁和队列的特性开发并测试抢单秒杀功能</li>
-                                    <li>  利用Nginx反向代理后台uwsgi+Django的回放接口，并且针对性使用Nginx负载均衡策略</li>
-                                    <li>  采用Redisearch实现的全文检索功能服务</li>
-                                    <li>  使用Sentry实时错误监控报警系统，快速帮助开发者实时监控并修复异常问题</li> 
-                                    <li>  使用MarkDown编写公司技术文档以及维护，定期review团队的代码，与团队成员共同进步</li>
-                                </ul>
-                            </li>
-                            <li>
-                                <ul>
-                                    <h4>项目成果：</h4>
-                                    <li>平台依托政府的政策支持和资金激励，行业引导和扶持并重，与物流龙头企业合作搭建，可有效吸引不同规模、不同业务类型的企业积极参与，扫除在推进过程中的各种壁垒，同时避免业务不落地，很好的实现公益性和市场性的高度融合</li>
-                                </ul>
-                            </li>
-                            
+                            <h3>2009 年 7 月-2016 年 4 月在淅川华硕电脑科技担任 IT 技术员及售后工作
+                            </h3>
+                                    <li>  负责 pc、显示器、网络、打印机、监控各方面的维修维护及组件工作</li>
+                                    <li>  主要负责产品售前/售后技术</li>
+                                    <li>  用户售后问题主要通过远程和电话支持</li> 
                         </ul>
                     </div>
                 </div>
@@ -129,35 +82,12 @@
                 <div class="col-s-12">
                     <div class="works-item">
                         <ul>
-                            <h3>德美斯物流CMS系统</h3>
-                            <li>
-                                <ul>
-                                    <h4>项目描述：</h4>
-                                    <li>支持授权管理机制，用户管理，订单商户审批，政策活动推送，大屏滚动数据展示以及上下行数据共享等，一套便于后台人员管理的可视化系统</li>
-                                </ul>
-                            </li>
-                            <li>
-                                <ul>
-                                    <h4>项目职责：</h4>
-                                    <li>主要负责用户管理、订单管理、系统设置、订单流水等模块</li>
-                                </ul> 
-                            </li>
-                            <li>
-                                <ul>
-                                    <h4>技术要点：</h4>
-                                    <li>  基于Django的后台管理平台，采用RBAC权限管理机制</li>
-                                    <li>  使用Supervisor对后台服务 例如uwsgi和Gunicorn进行监控和操作，降低维护成本</li>
-                                    <li>  采用FastDfs分布式文件系统作为海量视频储存方案，利用视频指纹规避重复文件问题，节约了大约25%的硬盘空间</li>
-                                    <li>  采用ECharts可视化图形展示，方便 Leader 随时审批和查看平台状况</li> 
-                                </ul>
-                            </li>
-                            <li>
-                                <ul>
-                                    <h4>项目成果：</h4>
-                                    <li>管理水平提高，管理人员减少10%，自动化订单管理，提高了工作效率</li>
-                                </ul>
-                            </li>
-                            
+                            <h3>2017 年 7 月-2019 年 6 月就职于北京蛙视软件技术有限公司担任 python 开发
+                            </h3>
+                                    <li>  参与 DSS 平台研发及项目需求分析</li>
+                                    <li>  后端接口及小程序接口编写</li>
+                                    <li>  使用 MarkDown 编写公司技术文档及维护，定期 Review 团队打代码，与团队成员共
+                                        同进步</li> 
                         </ul>
                     </div>
                 </div>
@@ -165,22 +95,15 @@
                 <div class="col-s-12">
                     <div class="works-item">
                         <ul>
-                            <h3>分布式数据抓取爬虫系统</h3>
-                            <li>
-                                <ul>
-                                    <h4>项目描述：</h4>
-                                    <li>针对监控行业数据抓取，进行数据分析</li>
-                                </ul>
-                            </li>
-                            <li>
-                                <ul>
-                                    <h4>技术要点：</h4>
-                                    <li>  设计和开发基于Scrapy的分布式数据抓取系统，优化爬虫策略和防屏蔽规则，利用Redis维护IP代理池，提高数据的抓取效率和质量</li>
-                                    <li>  利用Jenkins自动化部署服务，提高系统可用性</li>
-                                    <li>  利用Selenium针对爬虫进行反复测试和改进抓取方案</li>
-                                    <li>  使用机器学习三剑客对行业数据进行分析，并提供可视化数据方便Leader 查看业内情况</li> 
-                                </ul>
-                            </li> 
+                            <h3>2019 年 8 月-2021 年 11 月在河南时代新蓝网络技术有限公司担任技术工程师
+
+                            </h3>
+                                    <li>  负责 pc、显示器、网络、打印机、监控各方面的维修维护及组件工作</li>
+                                    <li>  外地用户通过远程和电话技术支持</li>
+                                    <li>  Windows 操作系统故障技术支持，公司内部软件的安装及技术支持</li>
+                                    <li>  项目后期弱电系统的运维工作。如：监控、会议系统等</li>  
+                                    <li> 处理公安网、外网及公安二类和三类监控故障问题，担任三类监控项目技术（严格遵守
+                                        一机两用及涉密问题）</li>  
                         </ul>
                     </div>
                 </div>
@@ -188,32 +111,22 @@
                 <div class="col-s-12">
                     <div class="works-item">
                         <ul>
-                            <h3>参与北京蛙视软件技术有限公司蛙视视频监控研发</h3>
-                            <li>
-                                <ul>
-                                    <h4>项目描述：</h4>
-                                    <li>蛙视监控是一款实用的智能视频监控软件，支持摄像头实时监控、视频回放、异常警报、设备管理、事件管理、录像计划、日志搜索、系统设置等，还可以配合云台调整摄像头全方位进行详细监控</li>
-                                </ul>
-                            </li>
-                            <li>
-                                <ul>
-                                    <h4>技术要点：</h4>
-                                    <li>  搭建基于Docker挂载Nginx-rtmp的实时监控服务器</li>
-                                    <li>  使用FFmpeg利用DVR设备进行推流，对视频进行视频埋点，视频信息分析等操作</li>
-                                    <li>  开发，测试回放，实时在线监控，历史回放等模块</li>
-                                    <li>  在网页端使用VUE.JS作为载体利用video.js作为实时监控流播放器，优化延时达500ms左右</li> 
-                                    <li>  利用Nginx反向代理后台uwsgi+Django的回放接口，并且针对性使用Nginx负载均衡策略</li>
-                                    <li>  使用Bootstrap作为播放页响应式设计解决方案，一套代码自适应大小屏应用，降低了45%左右的移动开发成本。</li>
-                                </ul>
-                            </li> 
+                            <h3>2022 年 1 月-至今 在深圳华创荣耀科技任电脑技术员
+                            </h3>
+                                    <li>  负责新品电脑 Diy 整机的稳定测试及评估</li>
+                                    <li>  对显卡进行测试（如花屏，闪屏，黑屏进行标注及跟更换）
+                                    </li>
+                                    <li>  远程处理客户电脑疑难问题及系统镜像的制作</li> 
                         </ul>
                     </div>
-                </div>  
+                </div>
+                <p>&nbsp;</p>
+                 
             </div>
         </div>
     </section>
     <footer>
-        <p>© 2019 By <a href="http://www.2345.com/?k2110824" title="站长资源" target="_blank">Moreduo</a>.</p>
+        <p>© 2023 By <a href="https://www.cnblogs.com/xcsg" title="个人博客" target="_blank">xcsg</a>.</p>
     </footer>
 </main>
 
